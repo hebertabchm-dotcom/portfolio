@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hebert Matheus | Desenvolvedor Front-End</title>
+    <meta name="description" content="Portfolio de Hebert Matheus - Desenvolvedor Front-End especializado em criar interfaces intuitivas e funcionais.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="icon" type="image/png" href="images/favcon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+        <div class="globe globe-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <a href="#home" class="logo">
+            <div class="logo-box">HM</div>
+            <span>Hebert Matheus</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#resume">Experiência</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#gallery">Sobre Mim</a></li>
+            <li><a href="#contact" class="btn-nav">Contato</a></li>
+        </ul>
+        <div class="burger" onclick="toggleMenu()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content fade-in-up">
+                    <span class="greeting">DESENVOLVEDOR FRONT-END EM FORMAÇÃO</span>
+                    <h1>Hebert <br><span class="highlight">Matheus</span></h1>
+                    <p class="subtitle">
+                        Desenvolvedor Front-End em formação com sólida base em HTML5, CSS3 e JavaScript. Especializado em criar interfaces modernas, responsivas e com excelente experiência do usuário. Formado em Logística, agora dedicado a transformar ideias em código.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#portfolio" class="btn primary-btn">Ver Meus Projetos <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn secondary-btn">Entrar em Contato</a>
+                    </div>
+                    <div class="social-hero">
+                        <span>Me siga:</span>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/hebert-matheus-127b551a1" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/hebertabchm-dotcom" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:hebertabc.hm@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profile Image -->
+                <div class="hero-visual fade-in-right">
+                    <div class="glass-card profile-card">
+                        <img src="images/profile.png" alt="Hebert Matheus" class="profile-img">
+                        <div class="profile-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <p class="section-subtitle">
+                        Sou um desenvolvedor Front-End em formação, apaixonado por criar interfaces intuitivas e funcionais que resolvem problemas reais com excelência.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Bio -->
+                    <div class="about-bio glass-panel fade-in-left">
+                        <p>
+                            Sou um profissional em transição de carreira, com sólida formação em Logística e agora focado em desenvolvimento Front-End. Minha jornada profissional me ensinou a pensar em processos, otimização e solução de problemas — habilidades que aplico diretamente no desenvolvimento de interfaces web.
+                        </p>
+                        <p>
+                            Acredito que o melhor código é aquele que combina funcionalidade com estilo. Cada projeto que realizo é abordado com atenção aos detalhes, responsividade e foco na experiência do usuário. Estou constantemente aprendendo e evoluindo minhas habilidades em HTML5, CSS3 e JavaScript.
+                        </p>
+                        <a href="#contact" class="btn text-btn">Vamos conversar <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Highlights -->
+                    <div class="highlights-grid fade-in-right">
+                        <div class="highlight-card glass-panel">
+                            <i class="fa-solid fa-code"></i>
+                            <h4>Front-End Developer</h4>
+                            <p>HTML5, CSS3, JavaScript</p>
+                        </div>
+                        <div class="highlight-card glass-panel">
+                            <i class="fa-solid fa-paintbrush"></i>
+                            <h4>UI/UX Focused</h4>
+                            <p>Interfaces responsivas e intuitivas</p>
+                        </div>
+                        <div class="highlight-card glass-panel">
+                            <i class="fa-solid fa-bolt"></i>
+                            <h4>Problem Solver</h4>
+                            <p>Soluções eficientes e criativas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="skills-section">
+                    <!-- Group 1: Front-End -->
+                    <div class="skill-group fade-in-up">
+                        <h3>Front-End Skills</h3>
+                        <ul>
+                            <li>HTML5 <div class="bar"><div class="fill" style="width: 95%"></div></div></li>
+                            <li>CSS3 <div class="bar"><div class="fill" style="width: 90%"></div></div></li>
+                            <li>JavaScript <div class="bar"><div class="fill" style="width: 75%"></div></div></li>
+                            <li>Responsive Design <div class="bar"><div class="fill" style="width: 95%"></div></div></li>
+                        </ul>
+                    </div>
+                    <!-- Group 2: Tools -->
+                    <div class="skill-group fade-in-up delay-1">
+                        <h3>Ferramentas</h3>
+                        <ul>
+                            <li>Git/GitHub <div class="bar"><div class="fill" style="width: 85%"></div></div></li>
+                            <li>VS Code <div class="bar"><div class="fill" style="width: 95%"></div></div></li>
+                            <li>Figma <div class="bar"><div class="fill" style="width: 70%"></div></div></li>
+                            <li>Power BI <div class="bar"><div class="fill" style="width: 70%"></div></div></li>
+                        </ul>
+                    </div>
+                    <!-- Group 3: Languages -->
+                    <div class="skill-group fade-in-up delay-2">
+                        <h3>Idiomas</h3>
+                        <ul>
+                            <li>Português (Nativo) <div class="bar"><div class="fill" style="width: 100%"></div></div></li>
+                            <li>Inglês (Básico) <div class="bar"><div class="fill" style="width: 40%"></div></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="resume" class="section alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experiência & Educação</h2>
+                    <p class="section-subtitle">
+                        Uma trajetória de aprendizado contínuo, evoluindo de Logística para Desenvolvimento Front-End.
+                    </p>
+                </div>
+
+                <div class="stats-grid fade-in-up">
+                    <div class="stat-item">
+                        <span class="num">4+</span>
+                        <span class="label">Projetos Completos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="num">6+</span>
+                        <span class="label">Anos em Logística</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="num">3+</span>
+                        <span class="label">Certificações</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="num">3+</span>
+                        <span class="label">Tecnologias</span>
+                    </div>
+                </div>
+
+                <div class="resume-grid">
+                    <!-- Professional Experience -->
+                    <div class="resume-col experience-col fade-in-left">
+                        <h3 class="col-title"><i class="fa-solid fa-briefcase"></i> Experiência Profissional</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h4>Assistente Logístico</h4>
+                                <span class="company">Grupo 3 Corações</span>
+                                <span class="period">06/2024 - 04/2025</span>
+                                <p>Emissão de Notas Fiscais, liberação de motoristas, acompanhamento de operações e elaboração de relatórios gerenciais.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Assistente Logístico</h4>
+                                <span class="company">GR Assessoria Contábil e Tributária</span>
+                                <span class="period">04/2023 - 06/2024</span>
+                                <p>Controle, programação e coordenação de operações de transporte, monitoramento de equipamentos.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Auxiliar Logístico II</h4>
+                                <span class="company">DHL Supply Chain</span>
+                                <span class="period">11/2021 - 11/2022</span>
+                                <p>Operações de Outbound, Inbound, Logística Reversa, utilização de WMS Manhattan.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Líder de Monitoramento / Analista Logístico</h4>
+                                <span class="company">Hawk Transportes</span>
+                                <span class="period">03/2020 - 10/2021</span>
+                                <p>Gestão operacional, análise de prioridades, definição de rotas, elaboração de relatórios de performance.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education & Certifications -->
+                    <div class="resume-col education-col fade-in-right">
+                        <!-- Education -->
+                        <div class="sub-col">
+                            <h3 class="col-title"><i class="fa-solid fa-graduation-cap"></i> Educação</h3>
+                            <div class="card-list">
+                                <div class="card-minimal">
+                                    <h4>Análise e Desenvolvimento de Sistemas</h4>
+                                    <p>UNIASSELVI</p>
+                                    <span class="date">Em andamento | Conclusão: 07/2028</span>
+                                </div>
+                                <div class="card-minimal">
+                                    <h4>Bacharelado em Logística</h4>
+                                    <p>Centro Universitário Celso Lisboa</p>
+                                    <span class="date">2025</span>
+                                </div>
+                                <div class="card-minimal">
+                                    <h4>Técnico em Logística</h4>
+                                    <p>Escola Técnica Objetivo</p>
+                                    <span class="date">2019</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Certifications -->
+                        <div class="sub-col mt-2">
+                            <h3 class="col-title"><i class="fa-solid fa-award"></i> Certificações</h3>
+                            <div class="card-list">
+                                <div class="card-minimal">
+                                    <h4>HTML5 | CSS3 e JavaScript</h4>
+                                    <p>Curso em Vídeo</p>
+                                </div>
+                                <div class="card-minimal">
+                                    <h4>Power BI</h4>
+                                    <p>Xperiun</p>
+                                </div>
+                                <div class="card-minimal">
+                                    <h4>Pacote Office</h4>
+                                    <p>Prepara Cursos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title">Meus Projetos</h2>
+                    <p class="section-subtitle">
+                        Seleção de projetos Front-End desenvolvidos com HTML5, CSS3 e JavaScript, demonstrando interfaces modernas, responsivas e com excelente experiência do usuário.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <a href="https://hebertabchm-dotcom.github.io/projeto-imobiliario-gpt01/" target="_blank" class="project-card glass-panel fade-in-up">
+                        <div class="project-media">
+                            <img src="images/projeto-01.png" alt="Projeto LuxPrime" onerror="this.src='https://placehold.co/600x400/101726/38bdf8?text=LuxPrime'">
+                            <div class="category-tag">Imobiliária</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Projeto LuxPrime</h3>
+                            <p>Plataforma de curadoria imobiliária de alto padrão com atendimento consultivo, visitas guiadas e formulário de contato.</p>
+                            <div class="tags">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            </div>
+                            <div class="project-link-cta">Ver Projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                        </div>
+                    </a>
+                    
+                    <!-- Project 2 -->
+                    <a href="https://hebertabchm-dotcom.github.io/projeto-imobiliario-gpt02/" target="_blank" class="project-card glass-panel fade-in-up delay-1">
+                        <div class="project-media">
+                            <img src="images/projeto-02.png" alt="Projeto Aurum Vista" onerror="this.src='https://placehold.co/600x400/101726/38bdf8?text=Aurum+Vista'">
+                            <div class="category-tag">Imobiliária</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Projeto Aurum Vista</h3>
+                            <p>Plataforma imobiliária especializada em curadoria de residências e investimentos com design elegante e responsivo.</p>
+                            <div class="tags">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            </div>
+                            <div class="project-link-cta">Ver Projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- Project 3 -->
+                    <a href="https://hebertabchm-dotcom.github.io/projeto-imobiliario-gpt03/" target="_blank" class="project-card glass-panel fade-in-up delay-2">
+                        <div class="project-media">
+                            <img src="images/projeto-03.png" alt="Projeto Aurea State" onerror="this.src='https://placehold.co/600x400/101726/38bdf8?text=Aurea+State'">
+                            <div class="category-tag">Imobiliária</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Projeto Aurea State</h3>
+                            <p>Imobiliária de alto padrão com foco em seleção por arquitetura, localização e potencial de valorização.</p>
+                            <div class="tags">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            </div>
+                            <div class="project-link-cta">Ver Projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- Project 4 -->
+                    <a href="https://hebertabchm-dotcom.github.io/projeto-imobiliario-gpt04/" target="_blank" class="project-card glass-panel fade-in-up delay-3">
+                        <div class="project-media">
+                            <img src="images/projeto-04.png" alt="Projeto Siwood Interiors" onerror="this.src='https://placehold.co/600x400/101726/38bdf8?text=Siwood+Interiors'">
+                            <div class="category-tag">Interiores</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Projeto Siwood Interiors</h3>
+                            <p>Boutique de interiores premium com projeto de interiores, reforma completa e curadoria de mobiliário.</p>
+                            <div class="tags">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            </div>
+                            <div class="project-link-cta">Ver Projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="more-projects-btn-wrapper">
+                    <a href="https://github.com/hebertabchm-dotcom" target="_blank" class="btn primary-btn">Acessar Repositório GitHub <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section alt-bg">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title">Mais Sobre Mim</h2>
+                    <p class="section-subtitle">
+                        Um pouco mais da minha rotina e paixão por tecnologia.
+                    </p>
+                </div>
+                
+                <div class="story-grid">
+                    <!-- Story 1 -->
+                    <div class="story-card glass-panel fade-in-up">
+                        <div class="story-image">
+                            <img src="images/gallery_1.png" alt="Foco no Código">
+                        </div>
+                        <div class="story-content">
+                            <h3>Imersão Tecnológica</h3>
+                            <p>
+                                Meu dia a dia é movido por linhas de código e lógica. Estou sempre em busca das melhores práticas de desenvolvimento, transformando desafios complexos em interfaces limpas e eficientes. O aprendizado é contínuo e cada projeto é uma nova conquista.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Story 2 -->
+                    <div class="story-card glass-panel fade-in-up delay-1">
+                        <div class="story-image">
+                            <img src="images/gallery_2.png" alt="Ambiente de Trabalho">
+                        </div>
+                        <div class="story-content">
+                            <h3>Profissionalismo & Organização</h3>
+                            <p>
+                                Minha bagagem na Logística me ensinou que organização é a chave para o sucesso. Trago essa disciplina para o meu setup e workflow, garantindo códigos estruturados, entregas pontuais e uma visão estratégica sobre cada etapa do desenvolvimento.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Story 3 -->
+                    <div class="story-card glass-panel fade-in-up delay-2">
+                        <div class="story-image">
+                            <img src="images/gallery_3.png" alt="Lifestyle e Evolução">
+                        </div>
+                        <div class="story-content">
+                            <h3>Evolução Constante</h3>
+                            <p>
+                                Acredito que o equilíbrio entre vida pessoal e profissional impulsiona a criatividade. Seja estudando novas tecnologias ou recarregando as energias, meu foco está sempre em ser 1% melhor a cada dia, construindo uma carreira sólida e com propósito.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title">Vamos Trabalhar Juntos?</h2>
+                    <p class="section-subtitle">
+                        Tem um projeto em mente? Adoraria ouvir sobre ele. Entre em contato e vamos criar algo incrível juntos.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info-cards">
+                        <a href="mailto:hebertabc.hm@gmail.com" class="contact-card-mini glass-panel">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p>hebertabc.hm@gmail.com</p>
+                        </a>
+                        <a href="tel:+5521969958530" class="contact-card-mini glass-panel">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Telefone</h4>
+                            <p>(21) 96995-8530</p>
+                        </a>
+                        <div class="contact-card-mini glass-panel">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Localização</h4>
+                            <p>Itaguaí - RJ, Brasil</p>
+                        </div>
+                    </div>
+
+                    <!-- Form -->
+                    <form class="contact-form glass-panel fade-in-up">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="name">Seu Nome</label>
+                                <input type="text" id="name" placeholder="Seu nome completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Seu Email</label>
+                                <input type="email" id="email" placeholder="seu@email.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" id="subject" placeholder="Consulta sobre projeto">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" rows="5" placeholder="Conte-me sobre seu projeto..."></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn full-width">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-box">HM</div>
+                    <div>
+                        <h4>Hebert Matheus</h4>
+                        <p>Desenvolvedor Front-End & Designer Web</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-cols">
+                    <h4>Tecnologias</h4>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Web Design</li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Conecte-se</h4>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/hebert-matheus-127b551a1" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/hebertabchm-dotcom" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:hebertabc.hm@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hebert Matheus. Todos os direitos reservados.</p>
+                <div class="legal-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Serviço</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
