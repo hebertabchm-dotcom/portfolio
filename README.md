@@ -45,9 +45,6 @@ Contato: Formulário estilizado e links diretos.
 
 
 
-
-
-
 🛠️ Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando as tecnologias fundamentais da web (Vanilla Stack), garantindo leveza e sem dependências pesadas.
@@ -73,47 +70,6 @@ hebert-portfolio/
 ├── script.js        # Lógica do menu e interações
 ├── images/          # Pasta com imagens otimizadas
 └── README.md        # Documentação do projeto
-
-
-
-
-
-🚀 Como Executar Localmente
-
-Se você quiser rodar este projeto na sua máquina:
-
-1.
-Clone o repositório:
-
-Bash
-
-
-git clone https://github.com/hebertabchm-dotcom/portfolio.git
-
-
-
-
-2.
-Entre na pasta:
-
-Bash
-
-
-cd portfolio
-
-
-
-
-3.
-Abra no navegador:
-
-•
-Basta dar um duplo clique no arquivo index.html.
-
-•
-OU use uma extensão como "Live Server" no VS Code.
-
-
 
 
 
