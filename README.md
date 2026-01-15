@@ -2,6 +2,7 @@
 Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minha transição de carreira da Logística para o Desenvolvimento Front-End, demonstrando minhas habilidades, projetos e experiência profissional.
 </p> <p align="center">
 
+
   
   🔗 **Acesse online:** [https://hebertabchm-dotcom.github.io/portfolio/](https://hebertabchm-dotcom.github.io/portfolio/ )
 </p>
@@ -57,23 +58,6 @@ Este projeto foi desenvolvido utilizando as tecnologias fundamentais da web (Van
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git & GitHub Pages">
 </p>
-
-
-
-
-📂 Estrutura do Projeto
-
-Plain Text
-
-
-hebert-portfolio/
-├── index.html       # Estrutura principal do site
-├── style.css        # Todos os estilos visuais
-├── script.js        # Lógica do menu e interações
-├── images/          # Pasta com imagens otimizadas
-└── README.md        # Documentação do projeto
-
-
 
 
 📬 Contato
